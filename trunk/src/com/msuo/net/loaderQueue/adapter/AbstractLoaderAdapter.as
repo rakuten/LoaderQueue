@@ -15,39 +15,39 @@ import com.msuo.net.loaderQueue.LoaderQueueEvent;
 
 /**
  * 任务完成后派发
- * @eventType net.manaca.loaderqueue.LoaderQueueEvent.TASK_COMPLETED
+ * @eventType com.msuo.net.loaderQueue.LoaderQueueEvent.TASK_COMPLETED
  */
-[Event(name="taskCompleted", type="net.manaca.loaderqueue.LoaderQueueEvent")]
+[Event(name="taskCompleted", type="com.msuo.net.loaderQueue.LoaderQueueEvent")]
 
 /**
  * 任务出错后派发
- * @eventType net.manaca.loaderqueue.LoaderQueueEvent.TASK_ERROR
+ * @eventType com.msuo.net.loaderQueue.LoaderQueueEvent.TASK_ERROR
  */
-[Event(name="taskError", type="net.manaca.loaderqueue.LoaderQueueEvent")]
+[Event(name="taskError", type="com.msuo.net.loaderQueue.LoaderQueueEvent")]
 
 /**
  * 任务进程中派发
- * @eventType net.manaca.loaderqueue.LoaderQueueEvent.TASK_PROGRESS
+ * @eventType com.msuo.net.loaderQueue.LoaderQueueEvent.TASK_PROGRESS
  */
-[Event(name="taskProgress", type="net.manaca.loaderqueue.LoaderQueueEvent")]
+[Event(name="taskProgress", type="com.msuo.net.loaderQueue.LoaderQueueEvent")]
 
 /**
  * 任务启动后派发
- * @eventType net.manaca.loaderqueue.LoaderQueueEvent.TASK_START
+ * @eventType com.msuo.net.loaderQueue.LoaderQueueEvent.TASK_START
  */
-[Event(name="taskStart", type="net.manaca.loaderqueue.LoaderQueueEvent")]
+[Event(name="taskStart", type="com.msuo.net.loaderQueue.LoaderQueueEvent")]
 
 /**
  * 任务停止或移出后派发
- * @eventType net.manaca.loaderqueue.LoaderQueueEvent.TASK_STOP
+ * @eventType com.msuo.net.loaderQueue.LoaderQueueEvent.TASK_STOP
  */
-[Event(name="taskStop", type="net.manaca.loaderqueue.LoaderQueueEvent")]
+[Event(name="taskStop", type="com.msuo.net.loaderQueue.LoaderQueueEvent")]
 
 /**
  * 任务消毁时派发
- * @eventType net.manaca.loaderqueue.LoaderQueueEvent.TASK_DISPOSE
+ * @eventType com.msuo.net.loaderQueue.LoaderQueueEvent.TASK_DISPOSE
  */
-[Event(name="taskDispose", type="net.manaca.loaderqueue.LoaderQueueEvent")]
+[Event(name="taskDispose", type="com.msuo.net.loaderQueue.LoaderQueueEvent")]
 
 /**
  * 虚构类，用于提供给adapter子类继承使用，同时adapter子类需引用ILoaderAdapter接口
