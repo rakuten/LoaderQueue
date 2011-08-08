@@ -10,10 +10,10 @@ import flash.utils.Timer;
 
 /**
  * 任务队列全部完成后派发
- * @eventType net.manaca.loaderqueue.LoaderQueueEvent.TASK_QUEUE_COMPLETED
+ * @eventType com.msuo.net.loaderQueue.LoaderQueueEvent.TASK_QUEUE_COMPLETED
  */
 [Event(name="taskQueueCompleted",
-    type="net.manaca.loaderqueue.LoaderQueueEvent")]
+    type="com.msuo.net.loaderQueue.LoaderQueueEvent")]
 
 /**
  * 任务队列及下载队列的管理器
@@ -25,7 +25,7 @@ import flash.utils.Timer;
  * var loaderQueue:LoaderQueue = new LoaderQueue();
  * loaderQueue.addItem(urlLoader);
  *
- * @see net.manaca.loaderqueue.adapter#URLLoaderAdapter
+ * @see com.msuo.net.loaderQueue.adapter#URLLoaderAdapter
  *
  * @author Austin
  * @update sean
