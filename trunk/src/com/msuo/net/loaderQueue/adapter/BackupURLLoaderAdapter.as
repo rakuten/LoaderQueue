@@ -14,7 +14,7 @@ import flash.net.URLRequest;
  * BackupURLLoaderAdapter可以设置两个URL地址，如果一个地址加载错误，
  * 程序将加载第二个地址。本对象一般用于确定服务的稳定性，如果数据服务器出现问题，
  * 我们可以设置一个静态文件路径，以确保最终显示正常。
- * @see net.manaca.loaderqueue#LoaderQueue
+ * @see com.msuo.net.loaderQueue#LoaderQueue
  * @author Austin
  * @update sean
  */
