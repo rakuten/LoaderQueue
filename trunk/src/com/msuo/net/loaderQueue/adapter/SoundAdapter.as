@@ -14,7 +14,7 @@ import flash.net.URLRequest;
 
 /**
  * 将Sound类包装成可用于LoaderQueue的适配器
- * @see net.manaca.loaderqueue#LoaderQueue
+ * @see com.msuo.net.loaderQueue.loaderqueue#LoaderQueue
  * @author Austin
  * @update sean
  */
